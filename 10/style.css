@@ -1,0 +1,64 @@
+body {
+background: #f5f5f5;
+color: #000000;
+font-family: Arial, Times New Roman;
+font-size: 16px;
+}
+header {
+background: pink;
+height: 100px;
+width: 100%;
+text-align:center;
+vertical-align:middle;
+font-size:1.7em;
+}
+aside {
+background: #f05a0a;
+float: left;
+width: 15%;
+height: 400px;
+writing-mode:vertical-rl;
+text-align:center;
+unicode-bidi: bidi-override;
+font-size:1.7em;
+}
+rside {
+background: #f05a0a;
+float: right;
+width: 20%;
+height: 400px;
+writing-mode:vertical-rl;
+text-align:center;
+unicode-bidi: bidi-override;
+font-size:1.7em;
+}
+#content {
+background: #62dff0;
+float: left;
+width: 65%;
+height: 400px;
+}
+#clear {
+clear:both;
+}
+
+footer1 {
+background: #bab8b6;
+color: black;
+float: left;
+height: 80px;
+width: 50%;
+text-align:center;
+vertical-align:middle;
+font-size:1.7em;
+}
+footer2 {
+background: #4d4c4c;
+color: black;
+float: right;
+height: 80px;
+width: 50%;
+text-align:center;
+vertical-align:middle;
+font-size:1.7em;
+}
